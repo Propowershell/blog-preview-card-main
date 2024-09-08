@@ -1,0 +1,116 @@
+/* CSS Variables for consistent styling */
+:root {
+  --yellow: rgb(244, 208, 78);
+  --gray-950: rgb(17, 17, 17);
+  --gray-500: rgb(107, 107, 107);
+  --white: rgb(255, 255, 255);
+}
+
+/* Define the ExtraBold weight */
+@font-face {
+    font-family: "Figtree";
+    src: url("Figtree-ExtraBold.ttf") format("truetype");
+    font-weight: 800; /* Example weight for ExtraBold */
+}
+
+/* Define the SemiBold weight */
+@font-face {
+    font-family: "Figtree";
+    src: url("Figtree-SemiBold.ttf") format("truetype");
+    font-weight: 600; /* Example weight for SemiBold */
+}
+
+body {
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+    margin: 0;
+    padding: 2rem;
+    font-family: "Figtree", sans-serif;
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: 0.9rem;
+    box-shadow: 7px 7px var(--gray-950);
+    max-width: 18rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--gray-950);
+    padding: 1.2rem 1.2rem 1rem;
+
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0.79rem;
+}
+
+.category {
+    background-color: var(--yellow);
+    color: var(--gray-950);
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.published-date {
+    color: var(--gray-950);
+    font-size: 0.75rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.card-title {
+    color: var(--gray-950);
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.card-title:hover, .card-title:active, .card-title:focus {
+    color: var(--yellow);
+}
+
+.card-description {
+    color: var(--gray-500);
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: var(--gray-950);
+    margin-bottom: 0;
+}
+
+.author img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+    .attribution { 
+      font-size: 11px; 
+      text-align: center; 
+      margin-top: 20px;
+    }
+
+    .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
