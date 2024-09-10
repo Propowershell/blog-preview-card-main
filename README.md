@@ -13,7 +13,7 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Overview
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS)). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ### Screenshot
 
@@ -22,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [https://github.com/Propowershell/Propowershell.github.io/tree/main]
-- Live Site URL: [https://propowershell.github.io/]
+- Live Site URL: [https://propowershell.github.io/blog-preview-card-main/#]
 
 ## My process
 
