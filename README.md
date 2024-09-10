@@ -21,7 +21,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://github.com/Propowershell/Propowershell.github.io/tree/main]
+- Solution URL: [https://github.com/Propowershell/blog-preview-card-main/tree/main]
 - Live Site URL: [https://propowershell.github.io/blog-preview-card-main/#]
 
 ## My process
@@ -30,7 +30,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 2. I typed out the HTML structure of the page.
 
-3. then I started adding styles until the QR Component looked very close to the original design.
+3. then I started adding styles until the Blog preview card looked very close to the original design.
 
 4. I initialized the project as a public repository on GitHub.
 
