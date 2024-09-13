@@ -36,7 +36,9 @@ body {
     background-color: var(--white);
     border-radius: 0.9rem;
     box-shadow: 7px 7px var(--gray-950);
-    max-width: 18rem;
+    width: calc(100% - 5rem);
+    max-width: 19rem;
+    min-width: 17rem;
     overflow: hidden;
     display: flex;
     flex-direction: column;
