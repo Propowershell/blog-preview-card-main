@@ -36,8 +36,7 @@ body {
     background-color: var(--white);
     border-radius: 0.9rem;
     box-shadow: 7px 7px var(--gray-950);
-    width: calc(100% - 2rem);
-    height: 50rem;
+    width: calc(100% - 5rem);
     max-width: 19rem;
     min-width: 17rem;
     overflow: hidden;
